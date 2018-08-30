@@ -1,0 +1,11 @@
+.heading{
+  text-align: center;
+  font-size: 1.875rem;
+  color: $mainBlue;
+  margin-top: .7rem;
+
+  @mixin atSmall{
+    text-align: left;
+    font-size: 2.875rem;
+  }
+}

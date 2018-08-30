@@ -342,6 +342,7 @@ template {
 }
 
 * {
+  box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -349,18 +350,78 @@ img{
   max-width: 100%;
 }
 
-.about-me{
+.about-me__image{
+    text-align: center;
+  }
 
-}
+@media (min-width: 768px){
+
+.about-me__image{
+      text-align: left
+  }
+  }
+
+.about-me__description{
+    text-align: center;
+  }
+
+.about-me__description h4{
+      margin-top: .5rem;
+      color: #d59541;
+    }
 
 .container{
   padding-left: 18px;
   padding-right: 18px;
-  max-width: 1200px;
+  max-width: 1236px;
   margin-left: auto;
   margin-right: auto;
 }
 
-.row{
-  
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+@media (min-width: 768px){
+    .row--gutters{
+      margin-right: -65px;
+    }
+
+    .row--gutters > div{
+      padding-right: 65px;
+    }
+
+
+    .row__md-4{
+      float: left;
+      width: 33.33%;
+    }
+
+    .row__md-8{
+      float: left;
+      width: 66.66%;
+    }
+  }
+
+.generic-content p {
+    font-size: 1.125rem;
+    font-weight: 300;
+    line-height: 1.65;
+  }
+
+.heading{
+  text-align: center;
+  font-size: 1.875rem;
+  color: #2f5572;
+  margin-top: .7rem;
 }
+
+@media (min-width: 530px){
+
+.heading{
+    text-align: left;
+    font-size: 2.875rem
+}
+  }

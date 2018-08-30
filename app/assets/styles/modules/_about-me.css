@@ -1,3 +1,19 @@
 .about-me{
 
+  &__image{
+    text-align: center;
+
+    @mixin atMedium{
+      text-align: left;
+    }
+  }
+
+  &__description{
+    text-align: center;
+
+    h4{
+      margin-top: .5rem;
+      color: $mainYellow;
+    }
+  }
 }

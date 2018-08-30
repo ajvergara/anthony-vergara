@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-compatible" content="IE=Edge">
     <title>Anthony Vergara - Personal Portfolio Website</title>
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
-    <link rel="stylesheet" href="temp/styles/styles.css">
+    <link rel="stylesheet" type="text/css" href="temp/styles/styles.css">
   </head>
   <body>
     <header class="header-section">
@@ -25,16 +26,21 @@
 
     <section class="about-me">
       <div class="container">
-        <div class="row">
+        <div class="row row--gutters">
           <div class="row__md-4">
-            <img src="assets/images/profile-pic.jpg" alt="A simple photo of me.">
+            <div class="about-me__image">
+              <img src="assets/images/profile-pic.jpg" alt="A simple photo of me.">
+              <span class="about-me__description">
+                <h4><i class="fa fa-code"></i> Front End Developer</h4>
+              </span>
+            </div>
           </div>
 
-          <div class="row__md-8">
-            <h1>Hi! Welcome to my blog.</h1>
+          <div class="row__md-8 generic-content">
+            <h1 class="heading">Hi! Take this chance to know me...</h1>
             <p>I'm Anthony Vergara, aspiring Front End Developer. As a self-taught developer most of my knowledge comes from the tutorials I studied and researches I have done.
 
-              I loved Web Development as I like being in a position where I can challenge myself into thinking, analyzing and solving problems. This field allows me to show what I can do, solve people's problem and make me a better person.
+              I love Web Development as I like being in a position where I can challenge myself into thinking, analyzing and solving problems. This field allows me to show what I can do, solve people's problem and makes me a better person.
             </p>
 
             <p>
