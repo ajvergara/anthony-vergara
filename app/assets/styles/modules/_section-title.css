@@ -1,0 +1,9 @@
+.section-title{
+  color: $mainBlue;
+  margin-bottom: 1.5rem;
+
+  &__subtitle{
+    color: $mainYellow;
+    margin-bottom: .4em;
+  }
+}

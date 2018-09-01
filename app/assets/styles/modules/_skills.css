@@ -1,0 +1,12 @@
+.skills{
+  li{
+    list-style: none;
+    padding: .2rem 0;
+    line-height: 1.65;
+    margin-left: 1.2rem;
+
+    a{
+      text-decoration: underline;
+    }
+  }
+}

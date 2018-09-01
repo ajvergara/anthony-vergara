@@ -1,0 +1,22 @@
+.btn{
+  padding: 20px 30px;
+  display: inline-block;
+  border-radius: 5px;
+  color: #777;
+  background-color: transparent;
+  transition: all .4s ease-out;
+
+  &--link{
+    border: solid 1px $mainYellow;
+
+    &:hover{
+      background-color: $mainYellow;
+      color: #fff;
+      border: solid 1px $mainYellow;
+    }
+  }
+
+  .fa{
+    padding-left: .5rem;
+  }
+}

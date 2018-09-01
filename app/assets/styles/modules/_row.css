@@ -1,16 +1,16 @@
 .row{
 
+  &--gutters{
+    margin-right: -65px;
+  }
+
+  &--gutters > div{
+    padding-right: 65px;
+  }
+
   @mixin clearfix;
 
   @mixin atMedium{
-    &--gutters{
-      margin-right: -65px;
-    }
-
-    &--gutters > div{
-      padding-right: 65px;
-    }
-
 
     &__md-4{
       float: left;

@@ -7,3 +7,10 @@
 @import "modules/_row";
 @import "modules/_generic-content";
 @import "modules/_heading";
+@import "modules/_skills";
+@import "modules/_section-title";
+@import "modules/_contact";
+@import "modules/_btn";
+@import "modules/_site-footer";
+@import "modules/_site-header";
+@import "modules/_primary-nav";

@@ -1,8 +1,22 @@
 * {
   box-sizing: border-box;
+}
+
+body{
   font-family: 'Roboto', sans-serif;
 }
 
 img{
   max-width: 100%;
+}
+
+a{
+  color: $mainYellow;
+  text-decoration: none;
+}
+
+.section-break{
+  max-width: 90%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
