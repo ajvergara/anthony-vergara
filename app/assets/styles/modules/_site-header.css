@@ -1,21 +1,39 @@
 .site-header{
   position: relative;
-  padding: 3rem 0;
+  padding: 1.6rem 0 3rem 0;
   margin-bottom: 1rem;
 
   @mixin atMedium{
+    padding: 3rem 0;
     margin-bottom: 0;
   }
 
   &__title{
     display: inline-block;
-    font-size: 2.25rem;
+    font-size: 1.8rem;
     font-weight: 300;
     color: #333;
     position: absolute;
 
     span{
       font-weight: 500;
+    }
+
+    @mixin atMedium{
+      font-size: 2.25rem;
+    }
+  }
+
+  &__menu-icon{
+    position: absolute;
+    top: 1.9rem;
+    right: 1.2rem;
+    background-color: #000;
+    height: 30px;
+    width: 30px;
+
+    @mixin atMedium{
+      display: none;
     }
   }
 
