@@ -1,9 +1,31 @@
 .primary-nav{
+  height: 0px;
+  padding-top: 50px;
+  transition: all .5s ease-out;
+
+  @mixin atMedium{
+    height: auto;
+    padding-top: 0;
+  }
+
+  &--expanded{
+    height: 180px;
+
+    @mixin atMedium{
+      height: auto;
+    }
+  }
+  /* &--mobile{
+    display: block;
+  } */
 
   @mixin clearfix;
 
   &--pull-right{
-    float: right;
+
+    @mixin atMedium{
+      float: right;
+    }
   }
 
   ul{
@@ -13,8 +35,11 @@
 
   li{
     list-style: none;
-    display: inline-block;
     padding-right: 30px;
+
+    @mixin atMedium{
+      display: inline-block;
+    }
   }
 
   a{
