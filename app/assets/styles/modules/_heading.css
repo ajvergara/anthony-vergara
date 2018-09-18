@@ -8,4 +8,16 @@
     text-align: left;
     font-size: 2.875rem;
   }
+
+  &--small{
+    font-size: 2.5rem;
+  }
+
+  &--light{
+    font-weight: 300;
+  }
+
+  &--center{
+    text-align: center;
+  }
 }

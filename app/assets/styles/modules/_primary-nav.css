@@ -40,6 +40,10 @@
     @mixin atMedium{
       display: inline-block;
     }
+
+    &.active a{
+      border-bottom: solid 1px $mainYellow;
+    }
   }
 
   a{

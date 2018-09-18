@@ -360,8 +360,8 @@ a{
 
 .section-break{
   max-width: 90%;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-top: 3.5rem;
+  margin-bottom: 3.5rem;
 }
 
 .about-me__image{
@@ -393,6 +393,10 @@ a{
   margin-left: auto;
   margin-right: auto;
 }
+
+.container--narrow{
+    max-width: 936px;
+  }
 
 .row--gutters{
     margin-right: -65px;
@@ -440,6 +444,18 @@ a{
     text-align: left;
     font-size: 2.875rem
 }
+  }
+
+.heading--small{
+    font-size: 2.5rem;
+  }
+
+.heading--light{
+    font-weight: 300;
+  }
+
+.heading--center{
+    text-align: center;
   }
 
 .skills li{
@@ -675,6 +691,10 @@ a{
   }
   }
 
+.primary-nav li.active a{
+      border-bottom: solid 1px #d59541;
+    }
+
 .primary-nav a{
     display: inline-block;
     padding-bottom: .5rem;
@@ -687,3 +707,58 @@ a{
 .primary-nav a:hover{
       border-bottom: solid 1px #d59541;
     }
+
+.page-section{
+  padding: 2.8rem 0;
+}
+
+.page-section--border-bottom{
+    border-bottom: 1px solid rgba(75, 75, 75, 0.2);
+  }
+
+.project-card__head{
+    position: relative;
+  }
+
+.project-card__overlay{
+    background-color: rgba(0, 0, 0, .25);
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: all .4s ease-out;
+    text-align: center;
+  }
+
+.project-card__overlay:hover{
+      opacity: 1;
+    }
+
+.project-card__btn{
+    position: relative;
+    top: 80%;
+    -webkit-transform: translateY(80%);
+            transform: translateY(80%);
+    border: solid 2px #f5c453;
+    border-radius: 5px;
+    color: #fff;
+    font-family: 'Pacifico', cursive;
+    padding: 15px 30px;
+    transition: all .4s ease-out;
+    visibility: hidden;
+  }
+
+.project-card__btn:hover{
+      border-color: #fff;
+      background-color: #f5c453;
+    }
+
+.project-card__overlay:hover .project-card__btn{
+      top: 50%;
+      visibility: visible;
+    }
+
+.project-card__title{
+    color: #2f5572;  
+  }
