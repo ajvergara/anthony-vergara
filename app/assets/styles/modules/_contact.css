@@ -16,4 +16,17 @@
       color: red;
     }
   }
+
+  &__warning{
+    text-align: center;
+    color: red;
+    margin: 0;
+    font-size: 3.5rem;
+  }
+
+  &__description{
+    font-family: "Pacifico", cursive;
+    text-align: center;
+    font-size: 1.2rem;
+  }
 }

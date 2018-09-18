@@ -499,6 +499,19 @@ a{
       color: red;
     }
 
+.contact__warning{
+    text-align: center;
+    color: red;
+    margin: 0;
+    font-size: 3.5rem;
+  }
+
+.contact__description{
+    font-family: "Pacifico", cursive;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+
 .btn{
   padding: 20px 30px;
   display: inline-block;
@@ -760,5 +773,5 @@ a{
     }
 
 .project-card__title{
-    color: #2f5572;  
+    color: #2f5572;
   }
