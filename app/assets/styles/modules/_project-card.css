@@ -47,4 +47,8 @@
   &__title{
     color: $mainBlue;
   }
+
+  &--center{
+    text-align: center;
+  }
 }

@@ -775,3 +775,7 @@ a{
 .project-card__title{
     color: #2f5572;
   }
+
+.project-card--center{
+    text-align: center;
+  }
