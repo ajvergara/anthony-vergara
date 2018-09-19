@@ -3,7 +3,7 @@ const gulp    = require("gulp"),
 
 gulp.task("scripts", function(){
   webpack({
-    mode: "development",
+    mode: "production",
     entry: __dirname + "/../../app/assets/scripts/App.js",
     output: {
       path: __dirname + "/../../app/temp/scripts/",
